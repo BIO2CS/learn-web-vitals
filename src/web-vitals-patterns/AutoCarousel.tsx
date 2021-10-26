@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "../styles/carousel.css";
 
 enum Direction {
@@ -8,7 +8,7 @@ enum Direction {
 
 const GAP = 10;
 
-export default function Carousel() {
+export default function AutoCarousel() {
 	const slideContainerRef = useRef<HTMLDivElement | null>(null);
 	const backRef = useRef<HTMLDivElement | null>(null);
 	const forwardRef = useRef<HTMLDivElement | null>(null);

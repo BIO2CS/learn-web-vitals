@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 // import logo from "./logo.svg";
 import "./App.css";
 import { getCLS, getFID, getLCP } from "web-vitals";
-import Carousel from "./web-vitals-patterns/Carousel";
+import AutoCarousel from "./web-vitals-patterns/AutoCarousel";
 
 function App() {
 	useEffect(() => {
@@ -12,7 +12,7 @@ function App() {
 	}, []);
 	return (
 		<div className="App">
-			<Carousel />
+			<AutoCarousel />
 		</div>
 	);
 }
